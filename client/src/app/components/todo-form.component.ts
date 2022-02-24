@@ -49,4 +49,12 @@ export class TodoFormComponent implements OnInit {
     })
   }
 
+  getTodo(): Todo {
+    return this.form.value as Todo
+  }
+
+  resetForm() {
+    this.form.reset('')
+  }
+
 }

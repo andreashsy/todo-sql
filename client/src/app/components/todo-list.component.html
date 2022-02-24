@@ -1,6 +1,6 @@
 <h2>Todo List</h2>
-<div *ngFor="let todo of todos" class="todo-list">
+<div *ngFor="let todo of todos" class="todo-list" [routerLink]="['edit', todo.tid]">
   {{todo.taskname}} | {{todo.priority}} | {{todo.duedate}} | {{todo.username}}
 </div>
 
-<button [routerLink]="['add']">Add</button>
+<button [routerLink]="['add']">Add Todo</button>

@@ -1,4 +1,3 @@
-<h2>Add Todo</h2>
 <div>
   <form [formGroup]="form" (ngSubmit)="addTodo()">
     <table>
@@ -24,11 +23,8 @@
         <td>Username</td>
         <td><input type="text" formControlName="username"></td>
       </tr>
-      <tr>
-        <td></td>
-        <td><button type="submit">Add</button></td>
-      </tr>
     </table>
   </form>
 </div>
+<ng-content></ng-content>
 <button [routerLink]="['']">Back</button>

@@ -13,7 +13,8 @@ import { TodoEditComponent } from './components/todo-edit.component';
 
 const appRoutes: Routes = [
 	{ path: '', component: TodoListComponent },
-	{ path: 'add', component: TodoFormComponent },
+	{ path: 'add', component: TodoAddComponent },
+  { path: 'edit/:tid', component: TodoEditComponent },
 ]
 
 @NgModule({

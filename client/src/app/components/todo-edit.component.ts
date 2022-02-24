@@ -12,4 +12,12 @@ export class TodoEditComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  editTodo() {
+
+  }
+
+  deleteTodo() {
+
+  }
+
 }
