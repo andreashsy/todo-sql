@@ -1,0 +1,9 @@
+.todo-list {
+  border: 1px solid grey;
+  padding: 8px;
+  margin: 8px;
+}
+
+.todo-list:hover {
+  background-color: aquamarine;
+}
